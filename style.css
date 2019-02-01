@@ -1,0 +1,73 @@
+/*left sidebar*/
+
+.dp {
+    border-radius: 50%;
+    height:30vh;
+}
+
+#left-col {
+    height:100vh;
+    width:17m;
+    text-align:center;
+    color: #13070C;
+    background-color: 472D30;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #C9CBA3;
+}
+
+a:hover {
+    color: #E26D5C;
+}
+
+
+.name {
+    color: #C9CBA3;
+}
+
+.position {
+    color: #E26D5C;
+    font size: 1.5em;
+}
+
+
+/*right sidebar*/
+.surname{
+    color:#472D30;
+}
+h1 {
+    color: #E26D5C;
+}
+h6 {
+    margin-top:0.1em;
+}
+
+
+/*body*/
+body {
+    background-color: #FFE1A8;
+}
+
+/*****main content****/
+#right-col h4 {
+    color: #723D46;
+}
+#right-col {
+    padding-left:12cm;
+}
+
+#Objective {
+    margin-top: 2em;
+}
+#Education {
+    margin-top: 2em;
+}
+
+#Reference {
+    margin-top: 2em;
+}
