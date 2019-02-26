@@ -1,0 +1,192 @@
+a:hover {
+    color:#E0B7B7;
+}
+/* The navigation bar */
+.navbar {
+    z-index: 100;
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    background-color: #EAD2AC;
+    float: left;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position of the navbar*/
+    width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-weight:bold;
+}
+/* backgrounds */
+.homebg, .htbg, .hlbg, .aboutbg, .contactbg {
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.homebg {
+    background-image: url("https://img1.goodfon.com/original/1440x900/b/bd/vintage-vintazh-retro-pisma.jpg");
+    min-height: 100%;
+}
+.htbg {
+    background-image: url("https://img4.goodfon.com/wallpaper/nbig/a/a9/kniga-romashki-kliuch.jpg");
+    min-height: 230%;
+}
+.hlbg {
+    background-image: url("https://img2.goodfon.com/wallpaper/nbig/4/93/klyuch-pero-makro-kniga-stranicy.jpg");
+    min-height: 250%;
+}
+.aboutbg {
+    background-image: url("https://img3.goodfon.com/wallpaper/nbig/3/58/books-heart-love-flower-rose.jpg");
+    min-height: 100%;
+}
+.contactbg {
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/6/36/beautiful-heart-love-wood-romantic-liubov-serdtse-tsvety-r-2.jpg");
+    min-height: 700;
+}
+.heartnotes {
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 60%; /* Full width */
+    padding: 100px; /* Some padding */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color:#A71D31;
+    font-weight:bold;
+}
+h3 {
+    color:#F1F0CC;
+}
+h4 {
+    text-align: center;
+}
+
+.ht {
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */ 
+    width: 100%; /* Full width */
+    padding: 100px; /* Some padding */
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.ht1, .ht2, .ht3{
+    position: absolute; /* Position the background text */ 
+    background-color: #D5BF86;
+    color: black;
+    padding: 15px; /* Some padding */
+    width: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.ht1 {
+    top: 220%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.ht2 { 
+    top: 280%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.ht3 { 
+    top: 220%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.letters {
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 100%; /* Full width */
+    padding: 100px; /* Some padding */
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hl1, .hl2, .hl3 {
+    position: absolute; /* Position the background text */ 
+    background-color: #D5BF86;
+    color: black;
+    padding: 15px; /* Some padding */
+    width: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.hl1 {
+    top: 450%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.hl2 { 
+    top: 520%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.hl3 { 
+    top: 450%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.site {
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 100%; /* Full width */
+    padding: 100px; /* Some padding */
+    top: 630%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite;
+}
+.general {
+    position: absolute; /* Position the background text */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    padding: 10px; /* Some padding */
+    top: 720%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite;
+}
+.submissions {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    position: absolute; /* Position the background text */
+    padding: 10px; /* Some padding */
+    top: 740%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite;
+}
